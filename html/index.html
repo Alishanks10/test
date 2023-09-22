@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Biography</title>
+
+    <style>
+        .header{
+            padding: 0px;
+            margin: 0px;
+            display: flex;
+            justify-content: left;
+            flex-direction: row;
+            background-color: rgb(20, 19, 19);
+            width: 100%;
+        }
+
+        #logo{
+            width: 100px;
+            height: 100px;
+            float: left;
+            border-radius: 50%;
+        }
+
+        .navbar{
+            display: flex;
+            justify-content: right;
+            flex-direction: right;
+            width: 100%;
+        }
+
+        .navbar ul li{
+            display: inline;       
+            padding: 15px 40px 15px 40px;
+        }
+
+        .navbar ul li a{
+            width: 20%;
+            text-decoration: none;
+        }
+
+        .navbar ul li:hover{
+            background-color: rgb(121, 110, 124);
+        }
+
+        .switchmode:active{
+            background-color: black;
+        }
+
+        footer{
+            background-color: blueviolet;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <a href="index.html"><img id="logo" src = "logo.png" alt="logo"></a>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Celebrities</a></li>
+                <li><a href="">Hehe</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </nav>
+
+        <!-- <div class="switchmode">
+            <a id="dar" href=""><button>Theme</button></a>
+        </div> -->
+
+    </div>
+    <hr>
+    <div>
+        <img id="profile" src = "pp.png" alt="profile">
+        <h2>Alishan Gurung</h2>
+        <h4>Computer Science student</h4>
+        <hr>
+        <ul>
+            <li>Computer Science graduate student currently pursuing Post-graduate degree in Lambton College.</li>
+            <li>Familier with C++, Java, Python, JavaScript, but more like "Jack of all trades, master of none."</li>
+            <li>Athletic physical features; and loves playing football.</li>
+            <li>Likes to read mangas and play video games on free time.</li>
+        </ul>
+        <hr>        
+    </div>
+
+    <div>
+        <div class="form">
+            <h2><u>Contact me</u></h2>
+            <form action="">
+                
+                <label for="fname">First name</label><br>
+                <input type="text" id="fname" name="firstname" placeholder="Enter your name..."><br><br>
+            
+                <label for="lname">Last name</label><br>
+                <input type="text" id="lname" name="lastname" placeholder="Enter your last name..."><br><br>
+                
+                <!-- <label for="country">Country</label><br>
+                <select id="country" name="country">
+                    <option value="Canada"></option>
+                    <option value="Nepal"></option>
+                    <option value="Argentina"></option>
+                </select><br><br> -->
+
+                <label for="subject">Subject</label><br>
+                <textarea id="subject" name="subject" placeholder="Write a message..." style="height:50px; width: 50%;"></textarea><br><br>
+
+                <button>Contact</button>
+            
+            </form><br><br>
+
+        </div>
+    </div>
+
+    <footer>
+        Follow me: <a href="https://www.linkedin.com/in/alishan-gurung-17b58020a/"><i class="fa-brands fa-linkedin"></i></a>
+        
+    </footer>
+    
+</body>
+</html>
